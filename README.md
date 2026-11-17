@@ -173,13 +173,13 @@ git init
 git add .
 git commit -m "feat: 极简单页待办清单"
 git branch -M main
-git remote add origin https://github.com/<你的用户名>/<仓库名>.git
+git remote add origin https://github.com/cfer2014/todo-web.git
 git push -u origin main
 ```
 
 也可以直接在 GitHub 网页上「Add file → Upload files」上传这两个文件。
 
-想在线上直接访问，可在仓库 `Settings → Pages` 里选择 `Deploy from a branch`，分支选 `main`、目录选 `/ (root)`。GitHub Pages 的根路径默认找 `index.html`，如果希望 `https://<用户名>.github.io/<仓库名>/` 直接打开应用，可以额外复制一份同名文件：
+想在线上直接访问，可在仓库 `Settings → Pages` 里选择 `Deploy from a branch`，分支选 `main`、目录选 `/ (root)`。GitHub Pages 的根路径默认找 `index.html`，如果希望 `https://cfer2014.github.io/todo-web/` 直接打开应用，可以额外复制一份同名文件：
 
 ```bash
 cp 待办清单.html index.html          # macOS / Linux
